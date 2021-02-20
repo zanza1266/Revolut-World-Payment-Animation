@@ -1,0 +1,262 @@
+/* RESET */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color:rgb(211, 211, 211);
+}
+
+.row {
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+.circle {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  border: 1px solid rgb( 1, 94, 245);
+  animation: an 1.7s infinite;
+  position: absolute;
+}
+
+img {
+  width: 100%;
+}
+
+
+
+@keyframes an {
+  0% {
+    transform: scale(.1, .1);
+    opacity: 0;
+  }
+
+  50% {
+    opacity: .7;
+  }
+
+  100% {
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  border: 1px solid rgba( 1, 94, 245 ,.9);
+  background-color: rgba( 1, 94, 245 ,.7);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* display: none; */
+  animation: an-due 1.7s infinite;
+}
+
+@keyframes an-due {
+  0% {
+    transform: translate(-50%, -50%) scale(.1, .1);
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1, 1);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1, 1);
+  }
+
+  100% {
+    transform: translate(-50%, -50%) scale(.1, .1);
+    opacity: 0;
+  }
+}
+
+.shadow {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: rgb( 1, 94, 245);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  /* display: none; */
+  animation: an-tre 1.7s infinite;
+}
+
+@keyframes an-tre {
+  0% {
+    transform: translate(-50%, -50%) scale(.1, .1);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translate(-50%, -50%) scale(1, 1);
+    opacity: .2;
+  }
+
+
+  100% {
+    transform: translate(-50%, -50%) scale(1, 1);
+    opacity: 0;
+  }
+}
+
+.container-dot {
+  /* display: none; */
+  height: 25px;
+  width: 25px;
+  position: relative;
+  top: 10px;
+}
+
+p {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 500;
+  animation: an-p 1.7s infinite;
+  color: rgb( 1, 94, 245);
+  width: 200px;
+  /* opacity: 0; */
+}
+
+@keyframes an-p {
+  0% {
+    opacity: 0;
+    transform: translate(0%, 0%);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(0%, -100%);
+  }
+}
+
+
+
+.new-york {
+  position: absolute;
+  top: 31%;
+  left: 27%;
+}
+
+.rome {
+  position: absolute;
+  top: 31%;
+  left: 51%;
+}
+
+.tokyo {
+  position: absolute;
+  top: 34%;
+  left: 86%;
+}
+
+.cairo {
+  position: absolute;
+  top: 37%;
+  left: 55%;
+}
+
+.mosca {
+  position: absolute;
+  top: 25%;
+  left: 55%;
+}
+
+.sidney {
+  position: absolute;
+  top: 70%;
+  left: 89%;
+}
+
+.londra {
+  position: absolute;
+  top: 25%;
+  left: 47%;
+}
+
+.parigi {
+  position: absolute;
+  top: 27%;
+  left: 48%;
+}
+
+.boston {
+  position: absolute;
+  top: 29%;
+  left: 28%;
+}
+
+.san-paolo {
+  position: absolute;
+  top: 66%;
+  left: 34%;
+}
+
+.pechino {
+  position: absolute;
+  top: 31%;
+  left: 79%;
+}
+
+.tangeri {
+  position: absolute;
+  top: 34%;
+  left: 46%;
+}
+
+.madrid {
+  position: absolute;
+  top: 31%;
+  left: 46%;
+}
+
+.lisbona {
+  position: absolute;
+  top: 53%;
+  left: 58%;
+}
+
+.nairobi {
+  position: absolute;
+  top: 37%;
+  left: 55%;
+}
+
+
+
+
+
+.map {
+  position: relative;
+  width: 85%;
+}
+
+.container {
+  display: none;
+}
+
+.active {
+  display: block;
+}

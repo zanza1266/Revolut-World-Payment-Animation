@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- VUE -->
+    <script src="vue/vue.js" charset="utf-8"></script>
+
+    <script src="js/functions.js" charset="utf-8"></script>
+
+    <title></title>
+  </head>
+
+  <body>
+    <div id="root">
+      <div class="row">
+        <div class="map">
+          <div v-for="(element, index) in cities" class="container" :class="[element.name, {active: element.toggle}]">
+            <p><i class="far fa-credit-card"></i> {{random[index]}} USD in {{element.name}}</p>
+  
+            <div class="container-dot">
+              <div id="animated" class="circle">
+  
+              </div>
+              <div id="animated-shadow" class="shadow">
+  
+              </div>
+              <div id="animated-dot" class="dot">
+  
+              </div>
+            </div>
+          </div>
+  
+
+          <img src="img/map.png" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="js/main.js" charset="utf-8"></script>
+  </body>
+</html>
