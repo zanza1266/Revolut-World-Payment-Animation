@@ -62,7 +62,16 @@ const vm = new Vue ({
       {
         name: 'nairobi',
         toggle: false
-      }
+      },
+      {
+        name: 'monterray',
+        toggle: false
+      },
+      {
+        name: 'bogotà',
+        toggle: false
+      },
+      
     ],
     random: []
 

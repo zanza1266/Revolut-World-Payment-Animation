@@ -14,7 +14,7 @@ body {
 }
 
 .row {
-  padding-top: 100px;
+  padding-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -156,101 +156,112 @@ p {
 
 .new-york {
   position: absolute;
-  top: 31%;
-  left: 27%;
+  top: 25%;
+  left: 26%;
 }
 
 .rome {
   position: absolute;
-  top: 31%;
+  top: 24%;
   left: 51%;
 }
 
 .tokyo {
   position: absolute;
-  top: 34%;
+  top: 26%;
   left: 86%;
 }
 
 .cairo {
   position: absolute;
-  top: 37%;
-  left: 55%;
+  top: 30%;
+  left: 54%;
 }
 
 .mosca {
   position: absolute;
-  top: 25%;
-  left: 55%;
+  top: 17%;
+  left: 57%;
 }
 
 .sidney {
   position: absolute;
-  top: 70%;
+  top: 66%;
   left: 89%;
 }
 
 .londra {
   position: absolute;
-  top: 25%;
+  top: 17%;
   left: 47%;
 }
 
 .parigi {
   position: absolute;
-  top: 27%;
+  top: 20%;
   left: 48%;
 }
 
 .boston {
   position: absolute;
-  top: 29%;
-  left: 28%;
+  top: 24%;
+  left: 26%;
 }
 
 .san-paolo {
   position: absolute;
-  top: 66%;
+  top: 62%;
   left: 34%;
 }
 
 .pechino {
   position: absolute;
-  top: 31%;
+  top: 25%;
   left: 79%;
 }
 
 .tangeri {
   position: absolute;
-  top: 34%;
+  top: 28%;
   left: 46%;
 }
 
 .madrid {
   position: absolute;
-  top: 31%;
+  top: 24%;
   left: 46%;
 }
 
 .lisbona {
   position: absolute;
-  top: 53%;
-  left: 58%;
+  top: 25%;
+  left: 45%;
 }
 
 .nairobi {
   position: absolute;
-  top: 37%;
-  left: 55%;
+  top: 47%;
+  left: 57%;
 }
 
+.monterray {
+  position: absolute;
+  top: 35%;
+  left: 19%;
+}
+
+.bogotà {
+  position: absolute;
+  top: 45%;
+  left: 27%;
+}
 
 
 
 
 .map {
   position: relative;
-  width: 85%;
+  width: 70%;
 }
 
 .container {
@@ -260,3 +271,4 @@ p {
 .active {
   display: block;
 }
+
