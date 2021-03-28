@@ -5,4 +5,5 @@ This is a reproduction of animated payments displayed on a map from Revolut: htt
 * HTML
 * CSS
 * JavaScript (Vue)
+
 ![](payment.gif)
